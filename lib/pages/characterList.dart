@@ -23,11 +23,9 @@ class CharacterList extends StatelessWidget {
               itemBuilder: (context, index) {
                 return GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => CharacterInfo(),
-                          ));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) =>
+                              CharacterInfo(CHARACTER[index])));
                     },
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/daniel13ds/2ºDAM/Desarrollo Interfaces/flutter/Creacion de Personajes/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/daniel13ds/2ºDAM/Desarrollo Interfaces/creacion-personajes-flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/daniel13ds/2ºDAM/Desarrollo Interfaces/flutter/Creacion de Personajes/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/daniel13ds/2ºDAM/Desarrollo Interfaces/creacion-personajes-flutter/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

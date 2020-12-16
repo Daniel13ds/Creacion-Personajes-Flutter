@@ -12,8 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Creador de Personajes RPG',
-      debugShowCheckedModeBanner: true,
-      theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          primaryColor: Colors.orange,
+          buttonColor: Colors.green),
       home: CharacterForm(),
     );
   }

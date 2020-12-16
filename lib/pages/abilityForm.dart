@@ -147,7 +147,11 @@ class _AbilityFormState extends State<AbilityForm> {
                   Padding(
                     padding: const EdgeInsets.only(top: 50),
                     child: RaisedButton(
-                        child: Text('Guardar'), onPressed: _saveForm),
+                        child: Text(
+                          'Guardar',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        onPressed: _saveForm),
                   ),
                   Text('Total habilidades: ${ABILITY.length}'),
                 ],

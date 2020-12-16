@@ -23,11 +23,8 @@ class AbilityList extends StatelessWidget {
               itemBuilder: (context, index) {
                 return GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => AbilityInfo(),
-                        ));
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => AbilityInfo(ABILITY[index])));
                   },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,

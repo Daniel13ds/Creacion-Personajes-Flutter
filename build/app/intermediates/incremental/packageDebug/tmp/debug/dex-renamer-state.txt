@@ -1,4 +1,4 @@
-#Tue Dec 15 15:22:56 CET 2020
-base.0=/home/daniel13ds/2ºDAM/Desarrollo Interfaces/flutter/Creacion de Personajes/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Wed Dec 16 18:39:09 CET 2020
+base.0=/home/daniel13ds/2ºDAM/Desarrollo Interfaces/creacion-personajes-flutter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

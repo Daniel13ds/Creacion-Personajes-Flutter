@@ -15,11 +15,17 @@ var ABITYPE = [
 ];
 
 Character sora = Character(
-    name: 'Sora', description: 'Portador de Llave Espada', type: 'Guerrero');
+    name: 'Sora',
+    description: 'Portador de Llave Espada',
+    type: 'Guerrero',
+    abil1: 'Piro');
 Character pikachu = Character(
-    name: 'Pikachu', description: 'Pokémon ratón eléctrico', type: 'Criatura');
-Character aerith =
-    Character(name: 'Aerith', description: 'Apoyo de FF7', type: 'Apoyo');
+    name: 'Pikachu',
+    description: 'Pokémon ratón eléctrico',
+    type: 'Criatura',
+    abil1: 'Impactrueno');
+Character aerith = Character(
+    name: 'Aerith', description: 'Apoyo de FF7', type: 'Apoyo', abil1: 'Cura');
 
 var CHARACTER = [sora, pikachu, aerith];
 
@@ -38,7 +44,10 @@ Ability impactrueno = Ability(
     accuracy: 100);
 
 Ability cura = Ability(
-    name: 'Cura', description: 'Magia leve de curación', type: 'Estado');
+    name: 'Cura',
+    description: 'Magia leve de curación',
+    type: 'Estado',
+    accuracy: 100);
 
 var ABILITY = [piro, impactrueno, cura];
 
